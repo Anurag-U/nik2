@@ -1,0 +1,139 @@
+.page-container{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background: linear-gradient(135deg,#ff758c,#ff7eb3);
+  padding:40px;
+  text-align:center;
+}
+
+.title{
+  font-size:36px;
+  color:white;
+  margin-bottom:30px;
+}
+
+.shayari-card{
+  background:rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border-radius:20px;
+  padding:30px;
+  max-width:600px;
+  color:white;
+  line-height:1.8;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.shayari-text{
+  margin-bottom:25px;
+  font-size:18px;
+}
+
+.nav-buttons{
+  margin-top:30px;
+}
+
+.btn{
+  background:white;
+  color:#ff4d6d;
+  border:none;
+  padding:12px 24px;
+  margin:10px;
+  border-radius:30px;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:scale(1.1);
+}
+
+.story-card{
+  background:rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border-radius:20px;
+  padding:35px;
+  max-width:750px;
+  color:white;
+  line-height:1.9;
+  box-shadow:0 10px 30px rgba(0,0,0,0.25);
+}
+
+.story-card p{
+  margin-bottom:18px;
+  font-size:18px;
+}
+
+.message{
+  font-style:italic;
+  color:#ffe6f0;
+}
+
+.final-line{
+  font-size:22px;
+  font-weight:bold;
+  color:#fff;
+}
+
+.ending{
+  margin-top:15px;
+  font-size:18px;
+}
+
+.joke-card{
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 600px;
+  color: white;
+  line-height: 1.8;
+}
+
+.joke-text{
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.joke-highlight{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.joke-ending{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.letter-card{
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 35px;
+  max-width: 700px;
+  color: white;
+  line-height: 1.9;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.letter-text{
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+.letter-ending{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.video-card{
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
