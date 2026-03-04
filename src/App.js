@@ -11,6 +11,7 @@ import Joke from "./pages/Joke";
 import Letter from "./pages/Letter";
 import Video from "./pages/Video";
 import Anniversary from "./pages/Anniversary";
+import Birthday from "./pages/birthday";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/letter" element={<Letter />} />
         <Route path="/video" element={<Video />} />
         <Route path="/anniversary" element={<Anniversary />} />
+        <Route path="/birthday" element={<Birthday />} />
 
       </Routes>
     </BrowserRouter>

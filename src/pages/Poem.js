@@ -6,11 +6,13 @@ const navigate = useNavigate()
 
 return(
 
-<div className="page">
+<div className="page-container">
 
-<h1>A Poem For You ❤️</h1>
+<h1 className="title">A Poem For You ❤️</h1>
 
-<p>
+<div className="shayari-card">
+
+<p className="shayari-text">
 
 In a world full of millions of faces  
 You became my favorite place.  
@@ -19,13 +21,15 @@ With you I never feel alone.
 
 </p>
 
-<div className="buttons">
+</div>
 
-<button onClick={()=>navigate("/menu")}>
+<div className="nav-buttons">
+
+<button className="btn" onClick={()=>navigate("/menu")}>
 Back
 </button>
 
-<button onClick={()=>navigate("/shayari")}>
+<button className="btn" onClick={()=>navigate("/shayari")}>
 Next
 </button>
 
