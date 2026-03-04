@@ -18,6 +18,8 @@ export default function Video() {
           height="420"
           allow="autoplay"
           style={{ border: "none", borderRadius: "15px" }}
+            title="YouTube video player"
+
         ></iframe>
 
       </div>
